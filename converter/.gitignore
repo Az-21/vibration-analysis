@@ -1,0 +1,4 @@
+# Prevent accidental commit of I/O files
+*.mat
+*.csv
+*.7z
