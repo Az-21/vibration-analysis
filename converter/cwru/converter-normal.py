@@ -48,7 +48,7 @@ def convert_mat_to_csv(filepath):
   # Import columns
   de = flatten(data[f"X{id}_DE_time"])
   fe = flatten(data[f"X{id}_FE_time"])
-  if special_case_flag == False:
+  if special_case_flag is False:
     metadata_rpm = data[f"X{id}RPM"][0][0]
 
   # Append metadata
