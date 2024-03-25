@@ -1,0 +1,22 @@
+{
+  "spectrogram": {
+    "width": 10,
+    "height": 6
+  },
+  "datasets": [
+    {
+      "id": 1,
+      "name": "Case Western",
+      "path": "csv/path/here",
+      "frequency": 12000,
+      "bucket": 3000
+    },
+    {
+      "id": 2,
+      "name": "Some Other Dataset",
+      "path": "csv/other-path/here",
+      "frequency": 14000,
+      "bucket": 4000
+    }
+  ]
+}
